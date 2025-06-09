@@ -1,0 +1,1 @@
+strace -o hello.log ./hello
