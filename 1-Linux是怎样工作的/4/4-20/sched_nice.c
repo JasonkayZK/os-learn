@@ -63,7 +63,7 @@ static void parent_fn(int nproc) {
   }
 }
 
-int main(const int argc, char *argv[]) {
+int main(void) {
   int ret = EXIT_FAILURE;
 
   // Step 1: Check params

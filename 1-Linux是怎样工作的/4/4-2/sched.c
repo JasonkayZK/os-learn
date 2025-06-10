@@ -58,7 +58,7 @@ static void child_fn(const int id, struct timespec *buf, const int nrecord) {
   exit(EXIT_SUCCESS);
 }
 
-int main(const int argc, char *argv[]) {
+int main(void) {
   int ret = EXIT_FAILURE;
 
   // Step 1: Check params
